@@ -31,18 +31,14 @@ constructor(){
 	}
 
 	pop(){
-
-		
-
-
-
+		let saved;
 		if(this.size === 0){
 
 			return
 
 		}else{
 
-		let saved = this.top.item;
+		saved = this.top.item;
 		let temp = this.top;
 
 		this.top = this.top.next;
@@ -100,7 +96,8 @@ constructor(){
 
 obj = new Stack();
 
-
+obj.push("a")
+obj.push("b")
 obj.displayAllItem();
 //obj.displayStackSize();
 obj.isEmpty();
