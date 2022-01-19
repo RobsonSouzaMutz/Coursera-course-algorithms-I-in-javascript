@@ -16,7 +16,6 @@ class Stack{
 constructor(){
 
 	this.top = null;
-	this.last = null;
 	this.size = 0;
 }
 	
