@@ -32,7 +32,9 @@ constructor(){
 
 	pop(){
 
-		let saved = this.top.item;
+		
+
+
 
 		if(this.size === 0){
 
@@ -40,6 +42,7 @@ constructor(){
 
 		}else{
 
+		let saved = this.top.item;
 		let temp = this.top;
 
 		this.top = this.top.next;
@@ -97,10 +100,6 @@ constructor(){
 
 obj = new Stack();
 
-obj.push("a");
-obj.push("b");
-obj.push("c");
-obj.push("d");
 
 obj.displayAllItem();
 //obj.displayStackSize();
